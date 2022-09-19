@@ -8,7 +8,7 @@ app = FastAPI()
 
 @app.get('/request')
 def getSecret(env,user):
-    url = "https://43.205.145.44:8200/v1/"+env.lower()+"/data/app?version=1"
+    url = "https://13.233.53.242:8200/v1/"+env.lower()+"/data/app?version=1"
 
     payload={}
     headers = {
